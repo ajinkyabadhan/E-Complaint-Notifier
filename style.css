@@ -3,15 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-  background-image: url('output-onlinepngtools.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-}
+
 .navbar {
     font-size: 120%;
 }
+
 .container-fluid .navbar .navbar-brand {
     color: #dc09fc;
     font-size: 1.6rem;
@@ -19,16 +15,6 @@ body {
     letter-spacing: 2px;
 }
 
-.home {
-    background-color: black;
-    height: 100vh;
-    /* view port height */
-}
-
-.platform{
-    font-weight: bold;
-    color: aliceblue;
-}
 #link {
     color: white;
     transition: text-decoration 1s;
@@ -55,6 +41,14 @@ body {
     visibility: visible;
     transform: scaleX(0.8);
 }
+
+.home,
+.services {
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+}
+
 #heading {
     padding-top: 30px;
     font-weight: bold;
