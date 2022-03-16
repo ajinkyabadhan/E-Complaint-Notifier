@@ -18,13 +18,11 @@ body {
     font-weight: 500;
     letter-spacing: 2px;
 }
-.box-1{
-    background-color:rgba(36, 33, 33, 0.658);
-    padding-top: 10%;
-    padding-bottom: 17%;
-    width: 100%;
-    margin-left:auto;
-    margin-right: auto;
+
+.home {
+    background-color: black;
+    height: 100vh;
+    /* view port height */
 }
 
 .platform{
